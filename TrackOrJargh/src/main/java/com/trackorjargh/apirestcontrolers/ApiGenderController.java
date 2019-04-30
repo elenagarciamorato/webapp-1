@@ -53,6 +53,7 @@ public class ApiGenderController {
 			sumGende += arrayGende.get(x).getShows().size();
 			
 			listGende.add(new Grafics(arrayGende.get(x).getName(), sumGende));
+			sumGende = 0;
 
 		}
 		
